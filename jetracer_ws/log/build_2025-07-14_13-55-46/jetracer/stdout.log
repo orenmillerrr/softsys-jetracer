@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/tuner.dir/src/hsv_sub.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tuner[0m
+[100%] Built target tuner
+-- Install configuration: ""
+-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/lib/jetracer/tuner
+-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/lib/jetracer/tuner" to ""
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/package_run_dependencies/jetracer
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/parent_prefix_path/jetracer
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/ament_prefix_path.sh
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/path.sh
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/path.dsv
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.bash
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.sh
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.zsh
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.dsv
+-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/package.dsv
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/packages/jetracer
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/cmake/jetracerConfig.cmake
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/cmake/jetracerConfig-version.cmake
+-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/package.xml

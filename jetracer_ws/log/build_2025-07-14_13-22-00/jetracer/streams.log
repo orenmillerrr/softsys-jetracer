@@ -1,0 +1,40 @@
+[0.016s] Invoking command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer -- -j2 -l2
+[0.053s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.299s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.329s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.340s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.367s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.444s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.446s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.532s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.604s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.667s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.683s] -- Found image_transport: 5.1.7 (/opt/ros/jazzy/share/image_transport/cmake)
+[0.804s] -- Configuring done (0.8s)
+[0.845s] -- Generating done (0.0s)
+[0.851s] -- Build files have been written to: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer
+[0.952s] [ 50%] [32mBuilding CXX object CMakeFiles/tuner.dir/src/hsv_sub.cpp.o[0m
+[12.476s] [100%] [32m[1mLinking CXX executable tuner[0m
+[13.689s] [100%] Built target tuner
+[13.705s] Invoked command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer -- -j2 -l2
+[13.719s] Invoking command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer
+[13.730s] -- Install configuration: ""
+[13.732s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/lib/jetracer/tuner
+[13.738s] -- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/lib/jetracer/tuner" to ""
+[13.738s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/package_run_dependencies/jetracer
+[13.739s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/parent_prefix_path/jetracer
+[13.740s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/ament_prefix_path.sh
+[13.740s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/ament_prefix_path.dsv
+[13.740s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/path.sh
+[13.740s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/path.dsv
+[13.740s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.bash
+[13.740s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.sh
+[13.740s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.zsh
+[13.741s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.dsv
+[13.741s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/package.dsv
+[13.741s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/packages/jetracer
+[13.741s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/cmake/jetracerConfig.cmake
+[13.741s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/cmake/jetracerConfig-version.cmake
+[13.741s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/package.xml
+[13.744s] Invoked command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer

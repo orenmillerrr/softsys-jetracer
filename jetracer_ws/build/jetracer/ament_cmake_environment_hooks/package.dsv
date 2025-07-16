@@ -1,0 +1,4 @@
+source;share/jetracer/local_setup.bash
+source;share/jetracer/local_setup.dsv
+source;share/jetracer/local_setup.sh
+source;share/jetracer/local_setup.zsh

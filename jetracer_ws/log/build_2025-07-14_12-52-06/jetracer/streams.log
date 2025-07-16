@@ -1,0 +1,10 @@
+[0.016s] Invoking command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer -- -j2 -l2
+[0.130s] [ 50%] [32mBuilding CXX object CMakeFiles/tuner.dir/src/hsv_sub.cpp.o[0m
+[3.120s] [01m[K/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer/src/hsv_sub.cpp:[m[K In member function ‘[01m[Kvoid ImageSubscriber::[01;32m[Ktopic_callback[m[K(sensor_msgs::msg::Image_<std::allocator<void> >::SharedPtr) const[m[K’:
+[3.120s] [01m[K/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer/src/hsv_sub.cpp:71:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kcv[m[K’
+[3.120s]    71 |         [01;31m[Kcv[m[K::waitKey(3);
+[3.120s]       |         [01;31m[K^~[m[K
+[6.184s] gmake[2]: *** [CMakeFiles/tuner.dir/build.make:76: CMakeFiles/tuner.dir/src/hsv_sub.cpp.o] Error 1
+[6.185s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/tuner.dir/all] Error 2
+[6.185s] gmake: *** [Makefile:146: all] Error 2
+[6.188s] Invoked command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer -- -j2 -l2

@@ -1,0 +1,25 @@
+[0.020s] Invoking command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer -- -j2 -l2
+[0.161s] [ 50%] [32mBuilding CXX object CMakeFiles/tuner.dir/src/hsv_sub.cpp.o[0m
+[12.255s] [100%] [32m[1mLinking CXX executable tuner[0m
+[13.575s] [100%] Built target tuner
+[13.593s] Invoked command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer -- -j2 -l2
+[13.611s] Invoking command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer
+[13.626s] -- Install configuration: ""
+[13.626s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/lib/jetracer/tuner
+[13.633s] -- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/lib/jetracer/tuner" to ""
+[13.634s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/package_run_dependencies/jetracer
+[13.636s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/parent_prefix_path/jetracer
+[13.636s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/ament_prefix_path.sh
+[13.636s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/ament_prefix_path.dsv
+[13.636s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/path.sh
+[13.637s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/path.dsv
+[13.637s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.bash
+[13.637s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.sh
+[13.637s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.zsh
+[13.637s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.dsv
+[13.637s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/package.dsv
+[13.638s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/packages/jetracer
+[13.638s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/cmake/jetracerConfig.cmake
+[13.638s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/cmake/jetracerConfig-version.cmake
+[13.638s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/package.xml
+[13.642s] Invoked command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer

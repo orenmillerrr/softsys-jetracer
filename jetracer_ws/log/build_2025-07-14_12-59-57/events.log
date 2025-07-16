@@ -1,0 +1,144 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (jetracer) JobQueued: {'identifier': 'jetracer', 'dependencies': OrderedDict()}
+[0.000330] (jetracer) JobStarted: {'identifier': 'jetracer'}
+[0.015273] (jetracer) JobProgress: {'identifier': 'jetracer', 'progress': 'cmake'}
+[0.016727] (jetracer) JobProgress: {'identifier': 'jetracer', 'progress': 'build'}
+[0.016801] (jetracer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer', '--', '-j2', '-l2'], 'cwd': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'odm0003', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/odm0003', 'OLDPWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1900', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'odm0003', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'odm0003', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/odm0003/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/odm0003:@/tmp/.ICE-unix/1868,unix/odm0003:/tmp/.ICE-unix/1868', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf75912b_2b4a_465a_b704_895cb42ad682', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PX0092', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.101329] (-) TimerEvent: {}
+[0.115806] (jetracer) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/tuner.dir/src/hsv_sub.cpp.o\x1b[0m\n'}
+[0.201442] (-) TimerEvent: {}
+[0.301829] (-) TimerEvent: {}
+[0.402149] (-) TimerEvent: {}
+[0.505323] (-) TimerEvent: {}
+[0.607440] (-) TimerEvent: {}
+[0.709453] (-) TimerEvent: {}
+[0.809728] (-) TimerEvent: {}
+[0.910008] (-) TimerEvent: {}
+[1.010338] (-) TimerEvent: {}
+[1.110641] (-) TimerEvent: {}
+[1.210950] (-) TimerEvent: {}
+[1.311262] (-) TimerEvent: {}
+[1.412347] (-) TimerEvent: {}
+[1.512667] (-) TimerEvent: {}
+[1.612970] (-) TimerEvent: {}
+[1.713558] (-) TimerEvent: {}
+[1.815457] (-) TimerEvent: {}
+[1.915796] (-) TimerEvent: {}
+[2.016121] (-) TimerEvent: {}
+[2.116455] (-) TimerEvent: {}
+[2.216734] (-) TimerEvent: {}
+[2.317087] (-) TimerEvent: {}
+[2.419481] (-) TimerEvent: {}
+[2.519821] (-) TimerEvent: {}
+[2.620176] (-) TimerEvent: {}
+[2.720546] (-) TimerEvent: {}
+[2.821440] (-) TimerEvent: {}
+[2.921756] (-) TimerEvent: {}
+[3.023461] (-) TimerEvent: {}
+[3.123774] (-) TimerEvent: {}
+[3.224083] (-) TimerEvent: {}
+[3.324430] (-) TimerEvent: {}
+[3.424710] (-) TimerEvent: {}
+[3.524985] (-) TimerEvent: {}
+[3.627432] (-) TimerEvent: {}
+[3.727744] (-) TimerEvent: {}
+[3.828063] (-) TimerEvent: {}
+[3.928464] (-) TimerEvent: {}
+[4.030103] (-) TimerEvent: {}
+[4.130461] (-) TimerEvent: {}
+[4.230797] (-) TimerEvent: {}
+[4.331143] (-) TimerEvent: {}
+[4.432444] (-) TimerEvent: {}
+[4.532752] (-) TimerEvent: {}
+[4.633081] (-) TimerEvent: {}
+[4.733474] (-) TimerEvent: {}
+[4.834444] (-) TimerEvent: {}
+[4.934790] (-) TimerEvent: {}
+[5.036507] (-) TimerEvent: {}
+[5.136858] (-) TimerEvent: {}
+[5.237239] (-) TimerEvent: {}
+[5.338419] (-) TimerEvent: {}
+[5.438834] (-) TimerEvent: {}
+[5.541324] (-) TimerEvent: {}
+[5.641608] (-) TimerEvent: {}
+[5.741971] (-) TimerEvent: {}
+[5.842439] (-) TimerEvent: {}
+[5.943658] (-) TimerEvent: {}
+[6.046379] (-) TimerEvent: {}
+[6.149950] (-) TimerEvent: {}
+[6.252311] (-) TimerEvent: {}
+[6.355106] (-) TimerEvent: {}
+[6.455517] (-) TimerEvent: {}
+[6.557979] (-) TimerEvent: {}
+[6.663504] (-) TimerEvent: {}
+[6.765899] (-) TimerEvent: {}
+[6.868250] (-) TimerEvent: {}
+[6.971068] (-) TimerEvent: {}
+[7.073417] (-) TimerEvent: {}
+[7.175799] (-) TimerEvent: {}
+[7.276635] (-) TimerEvent: {}
+[7.378934] (-) TimerEvent: {}
+[7.481722] (-) TimerEvent: {}
+[7.583964] (-) TimerEvent: {}
+[7.686952] (-) TimerEvent: {}
+[7.790026] (-) TimerEvent: {}
+[7.892378] (-) TimerEvent: {}
+[7.994833] (-) TimerEvent: {}
+[8.096455] (-) TimerEvent: {}
+[8.196929] (-) TimerEvent: {}
+[8.298592] (-) TimerEvent: {}
+[8.400963] (-) TimerEvent: {}
+[8.501295] (-) TimerEvent: {}
+[8.604206] (-) TimerEvent: {}
+[8.704696] (-) TimerEvent: {}
+[8.805026] (-) TimerEvent: {}
+[8.907820] (-) TimerEvent: {}
+[9.010192] (-) TimerEvent: {}
+[9.112628] (-) TimerEvent: {}
+[9.213218] (-) TimerEvent: {}
+[9.315603] (-) TimerEvent: {}
+[9.418013] (-) TimerEvent: {}
+[9.523190] (-) TimerEvent: {}
+[9.625928] (-) TimerEvent: {}
+[9.726276] (-) TimerEvent: {}
+[9.826774] (-) TimerEvent: {}
+[9.927109] (-) TimerEvent: {}
+[10.029842] (-) TimerEvent: {}
+[10.130364] (-) TimerEvent: {}
+[10.178884] (jetracer) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable tuner\x1b[0m\n'}
+[10.230466] (-) TimerEvent: {}
+[10.331006] (-) TimerEvent: {}
+[10.433992] (-) TimerEvent: {}
+[10.537301] (-) TimerEvent: {}
+[10.637733] (-) TimerEvent: {}
+[10.740068] (-) TimerEvent: {}
+[10.842609] (-) TimerEvent: {}
+[10.944100] (-) TimerEvent: {}
+[11.045393] (-) TimerEvent: {}
+[11.110369] (jetracer) StdoutLine: {'line': b'[100%] Built target tuner\n'}
+[11.131027] (jetracer) CommandEnded: {'returncode': 0}
+[11.132030] (jetracer) JobProgress: {'identifier': 'jetracer', 'progress': 'install'}
+[11.145680] (jetracer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer'], 'cwd': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'odm0003', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/odm0003', 'OLDPWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1900', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'odm0003', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'odm0003', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/odm0003/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/odm0003:@/tmp/.ICE-unix/1868,unix/odm0003:/tmp/.ICE-unix/1868', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/bf75912b_2b4a_465a_b704_895cb42ad682', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.PX0092', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[11.146483] (-) TimerEvent: {}
+[11.173911] (jetracer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.174979] (jetracer) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/lib/jetracer/tuner\n'}
+[11.189481] (jetracer) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/lib/jetracer/tuner" to ""\n'}
+[11.190098] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/package_run_dependencies/jetracer\n'}
+[11.190230] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/parent_prefix_path/jetracer\n'}
+[11.190383] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/ament_prefix_path.sh\n'}
+[11.190502] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/ament_prefix_path.dsv\n'}
+[11.195401] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/path.sh\n'}
+[11.195773] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/environment/path.dsv\n'}
+[11.195920] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.bash\n'}
+[11.196044] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.sh\n'}
+[11.201445] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.zsh\n'}
+[11.201568] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/local_setup.dsv\n'}
+[11.201647] (jetracer) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/package.dsv\n'}
+[11.201772] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/ament_index/resource_index/packages/jetracer\n'}
+[11.201858] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/cmake/jetracerConfig.cmake\n'}
+[11.201927] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/cmake/jetracerConfig-version.cmake\n'}
+[11.201994] (jetracer) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/jetracer/share/jetracer/package.xml\n'}
+[11.206744] (jetracer) CommandEnded: {'returncode': 0}
+[11.247319] (-) TimerEvent: {}
+[11.251318] (jetracer) JobEnded: {'identifier': 'jetracer', 'rc': 0}
+[11.254466] (-) EventReactorShutdown: {}
