@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from softsys_msgs/msg/Throttle.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module softsys_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "percentage of max throttle to be commanded -1.0 to 1.0. All commands outside of this range will be ignored.")
+    struct Throttle {
+      std_msgs::msg::Header header;
+
+      double throttle;
+    };
+  };
+};

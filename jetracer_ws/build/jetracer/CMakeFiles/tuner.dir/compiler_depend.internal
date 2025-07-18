@@ -3,6 +3,17 @@
 
 CMakeFiles/tuner.dir/src/hsv_sub.cpp.o
  /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer/src/hsv_sub.cpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__builder.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__struct.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__traits.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__builder.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__struct.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__traits.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/steer.hpp
+ /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/throttle.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__builder.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__struct.hpp
  /opt/ros/jazzy/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__traits.hpp

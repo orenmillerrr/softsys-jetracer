@@ -1,0 +1,14 @@
+{
+  "package_name": "softsys_msgs",
+  "output_dir": "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_generator_type_description/softsys_msgs",
+  "idl_tuples": [
+    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Throttle.idl",
+    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Steer.idl",
+    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Safety.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

@@ -1,0 +1,193 @@
+[0.017s] Invoking command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs -- -j2 -l2
+[0.096s] [  1%] Built target softsys_msgs__rosidl_generator_type_description
+[0.145s] [  1%] Built target ament_cmake_python_copy_softsys_msgs
+[0.188s] [ 22%] Built target softsys_msgs__rosidl_generator_c
+[0.224s] [ 24%] Built target softsys_msgs__cpp
+[0.565s] running egg_info
+[0.593s] writing softsys_msgs.egg-info/PKG-INFO
+[0.595s] writing dependency_links to softsys_msgs.egg-info/dependency_links.txt
+[0.596s] writing top-level names to softsys_msgs.egg-info/top_level.txt
+[0.679s] reading manifest file 'softsys_msgs.egg-info/SOURCES.txt'
+[0.681s] writing manifest file 'softsys_msgs.egg-info/SOURCES.txt'
+[0.722s] [ 24%] Built target ament_cmake_python_build_softsys_msgs_egg
+[0.761s] [ 33%] Built target softsys_msgs__rosidl_typesupport_introspection_c
+[0.797s] [ 42%] Built target softsys_msgs__rosidl_typesupport_c
+[0.850s] [ 51%] Built target softsys_msgs__rosidl_typesupport_fastrtps_cpp
+[0.904s] [ 61%] Built target softsys_msgs__rosidl_typesupport_introspection_cpp
+[0.955s] [ 70%] Built target softsys_msgs__rosidl_typesupport_cpp
+[1.009s] [ 79%] Built target softsys_msgs__rosidl_typesupport_fastrtps_c
+[1.051s] [ 79%] Built target softsys_msgs
+[1.086s] [ 81%] Built target softsys_msgs__py
+[1.142s] [ 88%] Built target softsys_msgs__rosidl_generator_py
+[1.182s] [ 92%] Built target softsys_msgs_s__rosidl_typesupport_fastrtps_c
+[1.229s] [ 96%] Built target softsys_msgs_s__rosidl_typesupport_introspection_c
+[1.273s] [100%] Built target softsys_msgs_s__rosidl_typesupport_c
+[1.295s] Invoked command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs -- -j2 -l2
+[1.328s] Invoking command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs
+[1.343s] -- Install configuration: ""
+[1.344s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/ament_index/resource_index/rosidl_interfaces/softsys_msgs
+[1.344s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Throttle.json
+[1.346s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Steer.json
+[1.346s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Safety.json
+[1.346s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs
+[1.346s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/steer.h
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__description.c
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__description.c
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.c
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__struct.h
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.h
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__struct.h
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__struct.h
+[1.347s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.h
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__functions.h
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__description.c
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__functions.c
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__functions.h
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.c
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__functions.c
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__functions.h
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.h
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__functions.c
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.c
+[1.350s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/safety.h
+[1.351s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.351s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/throttle.h
+[1.354s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/library_path.sh
+[1.354s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/library_path.dsv
+[1.354s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_c.so
+[1.355s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs
+[1.355s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg
+[1.355s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__rosidl_typesupport_fastrtps_c.h
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__rosidl_typesupport_fastrtps_c.h
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__rosidl_typesupport_fastrtps_c.h
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_c.so
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__rosidl_typesupport_introspection_c.h
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.c
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.c
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__rosidl_typesupport_introspection_c.h
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__rosidl_typesupport_introspection_c.h
+[1.356s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.c
+[1.357s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.357s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_c.so
+[1.360s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_c.so
+[1.360s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs
+[1.360s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg
+[1.360s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail
+[1.360s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__struct.hpp
+[1.360s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.hpp
+[1.360s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__traits.hpp
+[1.361s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__struct.hpp
+[1.361s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__builder.hpp
+[1.362s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__builder.hpp
+[1.362s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.hpp
+[1.363s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__traits.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__struct.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__builder.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__traits.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/steer.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/throttle.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/safety.hpp
+[1.365s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs
+[1.366s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg
+[1.366s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail
+[1.366s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/dds_fastrtps
+[1.366s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__rosidl_typesupport_fastrtps_cpp.hpp
+[1.366s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__rosidl_typesupport_fastrtps_cpp.hpp
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__rosidl_typesupport_fastrtps_cpp.hpp
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__rosidl_typesupport_introspection_cpp.hpp
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.cpp
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.cpp
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__rosidl_typesupport_introspection_cpp.hpp
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__rosidl_typesupport_introspection_cpp.hpp
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.cpp
+[1.368s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_cpp.so
+[1.371s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_cpp.so
+[1.371s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/pythonpath.sh
+[1.371s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/pythonpath.dsv
+[1.372s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info
+[1.372s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info/top_level.txt
+[1.373s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info/PKG-INFO
+[1.373s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info/SOURCES.txt
+[1.373s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info/dependency_links.txt
+[1.373s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs
+[1.373s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_c.c
+[1.373s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_steer_s.c
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/__init__.py
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_throttle_s.c
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_steer.py
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_safety.py
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_throttle.py
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_safety_s.c
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_c.so
+[1.374s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.375s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.375s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.377s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_introspection_c.so
+[1.377s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/__init__.py
+[1.464s] Listing '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs'...
+[1.464s] Listing '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg'...
+[1.471s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.478s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_introspection_c.so
+[1.484s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_c.so
+[1.485s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_py.so
+[1.485s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Throttle.idl
+[1.485s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Steer.idl
+[1.485s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Safety.idl
+[1.485s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Throttle.msg
+[1.485s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Steer.msg
+[1.485s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Safety.msg
+[1.487s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/ament_index/resource_index/package_run_dependencies/softsys_msgs
+[1.487s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/ament_index/resource_index/parent_prefix_path/softsys_msgs
+[1.487s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/ament_prefix_path.sh
+[1.487s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/ament_prefix_path.dsv
+[1.491s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/path.sh
+[1.491s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/path.dsv
+[1.491s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/local_setup.bash
+[1.491s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/local_setup.sh
+[1.492s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/local_setup.zsh
+[1.492s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/local_setup.dsv
+[1.492s] -- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/package.dsv
+[1.496s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/ament_index/resource_index/packages/softsys_msgs
+[1.499s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_cExport.cmake
+[1.499s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.500s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.500s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.501s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.501s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.501s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_cExport.cmake
+[1.502s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.503s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_cppExport.cmake
+[1.508s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.508s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.509s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.510s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.513s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_cppExport.cmake
+[1.513s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.513s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_pyExport.cmake
+[1.513s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.513s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/rosidl_cmake-extras.cmake
+[1.514s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.515s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.515s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.515s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.515s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.515s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.516s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgsConfig.cmake
+[1.517s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgsConfig-version.cmake
+[1.517s] -- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/package.xml
+[1.520s] Invoked command in '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs

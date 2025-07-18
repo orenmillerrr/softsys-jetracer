@@ -1,0 +1,421 @@
+[0.000000] (-) TimerEvent: {}
+[0.000125] (-) JobUnselected: {'identifier': 'jetracer'}
+[0.000156] (softsys_msgs) JobQueued: {'identifier': 'softsys_msgs', 'dependencies': OrderedDict()}
+[0.000175] (softsys_msgs) JobStarted: {'identifier': 'softsys_msgs'}
+[0.020733] (softsys_msgs) JobProgress: {'identifier': 'softsys_msgs', 'progress': 'cmake'}
+[0.023859] (softsys_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs', '-DCMAKE_INSTALL_PREFIX=/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs'], 'cwd': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'odm0003', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/odm0003', 'OLDPWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1842', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'odm0003', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'odm0003', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/odm0003/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/odm0003:@/tmp/.ICE-unix/1805,unix/odm0003:/tmp/.ICE-unix/1805', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8406ca3a_f715_4537_8037_24ca891f2420', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y9DY92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099158] (-) TimerEvent: {}
+[0.103721] (softsys_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.199250] (-) TimerEvent: {}
+[0.300614] (-) TimerEvent: {}
+[0.400887] (-) TimerEvent: {}
+[0.484060] (softsys_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.492251] (softsys_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.501027] (-) TimerEvent: {}
+[0.596088] (softsys_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601143] (-) TimerEvent: {}
+[0.676884] (softsys_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.685230] (softsys_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[0.701315] (-) TimerEvent: {}
+[0.751451] (softsys_msgs) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.801484] (-) TimerEvent: {}
+[0.902497] (-) TimerEvent: {}
+[1.002744] (-) TimerEvent: {}
+[1.103035] (-) TimerEvent: {}
+[1.203289] (-) TimerEvent: {}
+[1.303544] (-) TimerEvent: {}
+[1.404499] (-) TimerEvent: {}
+[1.504726] (-) TimerEvent: {}
+[1.579262] (softsys_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[1.604965] (-) TimerEvent: {}
+[1.705486] (-) TimerEvent: {}
+[1.805779] (-) TimerEvent: {}
+[1.906008] (-) TimerEvent: {}
+[2.006345] (-) TimerEvent: {}
+[2.107505] (-) TimerEvent: {}
+[2.163529] (softsys_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.207584] (-) TimerEvent: {}
+[2.309655] (-) TimerEvent: {}
+[2.410493] (-) TimerEvent: {}
+[2.510723] (-) TimerEvent: {}
+[2.611016] (-) TimerEvent: {}
+[2.711237] (-) TimerEvent: {}
+[2.811485] (-) TimerEvent: {}
+[2.912481] (-) TimerEvent: {}
+[2.983594] (softsys_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.987567] (softsys_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.013494] (-) TimerEvent: {}
+[3.113757] (-) TimerEvent: {}
+[3.149564] (softsys_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.214498] (-) TimerEvent: {}
+[3.314815] (-) TimerEvent: {}
+[3.415094] (-) TimerEvent: {}
+[3.515339] (-) TimerEvent: {}
+[3.615678] (-) TimerEvent: {}
+[3.716506] (-) TimerEvent: {}
+[3.768674] (softsys_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[3.817498] (-) TimerEvent: {}
+[3.857805] (softsys_msgs) StdoutLine: {'line': b'-- Configuring done (3.8s)\n'}
+[3.917676] (-) TimerEvent: {}
+[3.924670] (softsys_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[3.942112] (softsys_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs\n'}
+[3.950514] (softsys_msgs) CommandEnded: {'returncode': 0}
+[3.950795] (softsys_msgs) JobProgress: {'identifier': 'softsys_msgs', 'progress': 'build'}
+[3.951278] (softsys_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs', '--', '-j2', '-l2'], 'cwd': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'odm0003', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/odm0003', 'OLDPWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1842', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'odm0003', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'odm0003', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/odm0003/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/odm0003:@/tmp/.ICE-unix/1805,unix/odm0003:/tmp/.ICE-unix/1805', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8406ca3a_f715_4537_8037_24ca891f2420', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y9DY92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[4.018070] (-) TimerEvent: {}
+[4.058099] (softsys_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.073097] (softsys_msgs) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_copy_softsys_msgs\n'}
+[4.118164] (-) TimerEvent: {}
+[4.220575] (-) TimerEvent: {}
+[4.320848] (-) TimerEvent: {}
+[4.346287] (softsys_msgs) StdoutLine: {'line': b'[  1%] Built target softsys_msgs__rosidl_generator_type_description\n'}
+[4.363498] (softsys_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.420952] (-) TimerEvent: {}
+[4.469508] (softsys_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[4.469653] (softsys_msgs) StdoutLine: {'line': b'creating softsys_msgs.egg-info\n'}
+[4.495726] (softsys_msgs) StdoutLine: {'line': b'writing softsys_msgs.egg-info/PKG-INFO\n'}
+[4.495978] (softsys_msgs) StdoutLine: {'line': b'writing dependency_links to softsys_msgs.egg-info/dependency_links.txt\n'}
+[4.496211] (softsys_msgs) StdoutLine: {'line': b'writing top-level names to softsys_msgs.egg-info/top_level.txt\n'}
+[4.496390] (softsys_msgs) StdoutLine: {'line': b"writing manifest file 'softsys_msgs.egg-info/SOURCES.txt'\n"}
+[4.521469] (-) TimerEvent: {}
+[4.592186] (softsys_msgs) StdoutLine: {'line': b"reading manifest file 'softsys_msgs.egg-info/SOURCES.txt'\n"}
+[4.593243] (softsys_msgs) StdoutLine: {'line': b"writing manifest file 'softsys_msgs.egg-info/SOURCES.txt'\n"}
+[4.621598] (-) TimerEvent: {}
+[4.635474] (softsys_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_build_softsys_msgs_egg\n'}
+[4.666782] (softsys_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.721687] (-) TimerEvent: {}
+[4.821915] (-) TimerEvent: {}
+[4.925803] (-) TimerEvent: {}
+[5.026163] (-) TimerEvent: {}
+[5.033621] (softsys_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/throttle__description.c.o\x1b[0m\n'}
+[5.126267] (-) TimerEvent: {}
+[5.215485] (softsys_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/throttle__functions.c.o\x1b[0m\n'}
+[5.226386] (-) TimerEvent: {}
+[5.243879] (softsys_msgs) StdoutLine: {'line': b'[  9%] Built target softsys_msgs__cpp\n'}
+[5.256932] (softsys_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/throttle__type_support.c.o\x1b[0m\n'}
+[5.294511] (softsys_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/steer__description.c.o\x1b[0m\n'}
+[5.301481] (softsys_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/steer__functions.c.o\x1b[0m\n'}
+[5.326505] (-) TimerEvent: {}
+[5.353498] (softsys_msgs) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/steer__type_support.c.o\x1b[0m\n'}
+[5.366846] (softsys_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/safety__description.c.o\x1b[0m\n'}
+[5.393872] (softsys_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/safety__functions.c.o\x1b[0m\n'}
+[5.417221] (softsys_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_c.dir/rosidl_generator_c/softsys_msgs/msg/detail/safety__type_support.c.o\x1b[0m\n'}
+[5.427509] (-) TimerEvent: {}
+[5.483430] (softsys_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32m\x1b[1mLinking C shared library libsoftsys_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[5.527637] (-) TimerEvent: {}
+[5.563816] (softsys_msgs) StdoutLine: {'line': b'[ 24%] Built target softsys_msgs__rosidl_generator_c\n'}
+[5.579553] (softsys_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.579850] (softsys_msgs) StdoutLine: {'line': b'[ 27%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.627727] (-) TimerEvent: {}
+[5.727960] (-) TimerEvent: {}
+[5.830605] (-) TimerEvent: {}
+[5.930886] (-) TimerEvent: {}
+[5.988330] (softsys_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/softsys_msgs/msg/throttle__type_support.cpp.o\x1b[0m\n'}
+[6.010657] (softsys_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/softsys_msgs/msg/detail/throttle__type_support.c.o\x1b[0m\n'}
+[6.031490] (-) TimerEvent: {}
+[6.076726] (softsys_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/softsys_msgs/msg/detail/steer__type_support.c.o\x1b[0m\n'}
+[6.131598] (-) TimerEvent: {}
+[6.142002] (softsys_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/softsys_msgs/msg/detail/safety__type_support.c.o\x1b[0m\n'}
+[6.186331] (softsys_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/softsys_msgs/msg/steer__type_support.cpp.o\x1b[0m\n'}
+[6.196050] (softsys_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32m\x1b[1mLinking C shared library libsoftsys_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[6.232495] (-) TimerEvent: {}
+[6.249533] (softsys_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/softsys_msgs/msg/safety__type_support.cpp.o\x1b[0m\n'}
+[6.251544] (softsys_msgs) StdoutLine: {'line': b'[ 40%] Built target softsys_msgs__rosidl_typesupport_introspection_c\n'}
+[6.266794] (softsys_msgs) StdoutLine: {'line': b'[ 42%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.304869] (softsys_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libsoftsys_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[6.332629] (-) TimerEvent: {}
+[6.401373] (softsys_msgs) StdoutLine: {'line': b'[ 44%] Built target softsys_msgs__rosidl_typesupport_c\n'}
+[6.417972] (softsys_msgs) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.432705] (-) TimerEvent: {}
+[6.533594] (-) TimerEvent: {}
+[6.638478] (-) TimerEvent: {}
+[6.738741] (-) TimerEvent: {}
+[6.775081] (softsys_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/softsys_msgs/msg/detail/dds_fastrtps/throttle__type_support.cpp.o\x1b[0m\n'}
+[6.838937] (-) TimerEvent: {}
+[6.898598] (softsys_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/softsys_msgs/msg/detail/throttle__type_support.cpp.o\x1b[0m\n'}
+[6.938955] (-) TimerEvent: {}
+[7.039349] (-) TimerEvent: {}
+[7.139694] (-) TimerEvent: {}
+[7.239993] (-) TimerEvent: {}
+[7.342616] (-) TimerEvent: {}
+[7.442893] (-) TimerEvent: {}
+[7.543272] (-) TimerEvent: {}
+[7.618508] (softsys_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/softsys_msgs/msg/detail/steer__type_support.cpp.o\x1b[0m\n'}
+[7.643364] (-) TimerEvent: {}
+[7.743632] (-) TimerEvent: {}
+[7.845647] (-) TimerEvent: {}
+[7.906116] (softsys_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/softsys_msgs/msg/detail/dds_fastrtps/steer__type_support.cpp.o\x1b[0m\n'}
+[7.945751] (-) TimerEvent: {}
+[7.976725] (softsys_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/softsys_msgs/msg/detail/safety__type_support.cpp.o\x1b[0m\n'}
+[8.045854] (-) TimerEvent: {}
+[8.147627] (-) TimerEvent: {}
+[8.247948] (-) TimerEvent: {}
+[8.345535] (softsys_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libsoftsys_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.349488] (-) TimerEvent: {}
+[8.433820] (softsys_msgs) StdoutLine: {'line': b'[ 57%] Built target softsys_msgs__rosidl_typesupport_introspection_cpp\n'}
+[8.447824] (softsys_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/softsys_msgs/msg/detail/dds_fastrtps/safety__type_support.cpp.o\x1b[0m\n'}
+[8.449584] (-) TimerEvent: {}
+[8.458173] (softsys_msgs) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.550483] (-) TimerEvent: {}
+[8.650760] (-) TimerEvent: {}
+[8.751016] (-) TimerEvent: {}
+[8.790379] (softsys_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/softsys_msgs/msg/throttle__type_support.cpp.o\x1b[0m\n'}
+[8.851126] (-) TimerEvent: {}
+[8.953621] (-) TimerEvent: {}
+[9.024617] (softsys_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libsoftsys_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[9.053727] (-) TimerEvent: {}
+[9.108517] (softsys_msgs) StdoutLine: {'line': b'[ 64%] Built target softsys_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.124239] (softsys_msgs) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.145475] (softsys_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/softsys_msgs/msg/steer__type_support.cpp.o\x1b[0m\n'}
+[9.153816] (-) TimerEvent: {}
+[9.255617] (-) TimerEvent: {}
+[9.355907] (-) TimerEvent: {}
+[9.457229] (-) TimerEvent: {}
+[9.540735] (softsys_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/softsys_msgs/msg/safety__type_support.cpp.o\x1b[0m\n'}
+[9.557336] (-) TimerEvent: {}
+[9.596179] (softsys_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/softsys_msgs/msg/detail/throttle__type_support_c.cpp.o\x1b[0m\n'}
+[9.657435] (-) TimerEvent: {}
+[9.757727] (-) TimerEvent: {}
+[9.857998] (-) TimerEvent: {}
+[9.932912] (softsys_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libsoftsys_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.958118] (-) TimerEvent: {}
+[10.009521] (softsys_msgs) StdoutLine: {'line': b'[ 74%] Built target softsys_msgs__rosidl_typesupport_cpp\n'}
+[10.026357] (softsys_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/softsys_msgs/msg/detail/steer__type_support_c.cpp.o\x1b[0m\n'}
+[10.059501] (-) TimerEvent: {}
+[10.160988] (-) TimerEvent: {}
+[10.263198] (-) TimerEvent: {}
+[10.354548] (softsys_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object CMakeFiles/softsys_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/softsys_msgs/msg/detail/safety__type_support_c.cpp.o\x1b[0m\n'}
+[10.363307] (-) TimerEvent: {}
+[10.463602] (-) TimerEvent: {}
+[10.563894] (-) TimerEvent: {}
+[10.666728] (-) TimerEvent: {}
+[10.768325] (-) TimerEvent: {}
+[10.868725] (-) TimerEvent: {}
+[10.969028] (-) TimerEvent: {}
+[10.974114] (softsys_msgs) StdoutLine: {'line': b'[ 79%] \x1b[32m\x1b[1mLinking CXX shared library libsoftsys_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.056220] (softsys_msgs) StdoutLine: {'line': b'[ 79%] Built target softsys_msgs__rosidl_typesupport_fastrtps_c\n'}
+[11.069132] (-) TimerEvent: {}
+[11.101649] (softsys_msgs) StdoutLine: {'line': b'[ 79%] Built target softsys_msgs\n'}
+[11.142220] (softsys_msgs) StdoutLine: {'line': b'[ 81%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.169293] (-) TimerEvent: {}
+[11.269574] (-) TimerEvent: {}
+[11.371981] (-) TimerEvent: {}
+[11.472298] (-) TimerEvent: {}
+[11.572598] (-) TimerEvent: {}
+[11.673491] (-) TimerEvent: {}
+[11.713445] (softsys_msgs) StdoutLine: {'line': b'[ 81%] Built target softsys_msgs__py\n'}
+[11.754016] (softsys_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_py.dir/rosidl_generator_py/softsys_msgs/msg/_throttle_s.c.o\x1b[0m\n'}
+[11.754192] (softsys_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_py.dir/rosidl_generator_py/softsys_msgs/msg/_steer_s.c.o\x1b[0m\n'}
+[11.774501] (-) TimerEvent: {}
+[11.874768] (-) TimerEvent: {}
+[11.975064] (-) TimerEvent: {}
+[12.022482] (softsys_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs__rosidl_generator_py.dir/rosidl_generator_py/softsys_msgs/msg/_safety_s.c.o\x1b[0m\n'}
+[12.075236] (-) TimerEvent: {}
+[12.175596] (-) TimerEvent: {}
+[12.200068] (softsys_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared library libsoftsys_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[12.275775] (-) TimerEvent: {}
+[12.284149] (softsys_msgs) StdoutLine: {'line': b'[ 88%] Built target softsys_msgs__rosidl_generator_py\n'}
+[12.323135] (softsys_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[12.323317] (softsys_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[12.375882] (-) TimerEvent: {}
+[12.476176] (-) TimerEvent: {}
+[12.496583] (softsys_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/softsys_msgs/softsys_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[12.497877] (softsys_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/softsys_msgs/softsys_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[12.556506] (softsys_msgs) StdoutLine: {'line': b'[ 96%] Built target softsys_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[12.565516] (softsys_msgs) StdoutLine: {'line': b'[ 96%] Built target softsys_msgs_s__rosidl_typesupport_introspection_c\n'}
+[12.576300] (-) TimerEvent: {}
+[12.599415] (softsys_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/softsys_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[12.676480] (-) TimerEvent: {}
+[12.750474] (softsys_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/softsys_msgs/softsys_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.776552] (-) TimerEvent: {}
+[12.810566] (softsys_msgs) StdoutLine: {'line': b'[100%] Built target softsys_msgs_s__rosidl_typesupport_c\n'}
+[12.830570] (softsys_msgs) CommandEnded: {'returncode': 0}
+[12.830881] (softsys_msgs) JobProgress: {'identifier': 'softsys_msgs', 'progress': 'install'}
+[12.845929] (softsys_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs'], 'cwd': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'odm0003', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/odm0003', 'OLDPWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '1842', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'odm0003', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'odm0003', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/bin:/home/odm0003/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/odm0003:@/tmp/.ICE-unix/1805,unix/odm0003:/tmp/.ICE-unix/1805', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8406ca3a_f715_4537_8037_24ca891f2420', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.Y9DY92', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.98', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[12.860813] (softsys_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.861260] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/ament_index/resource_index/rosidl_interfaces/softsys_msgs\n'}
+[12.862112] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Throttle.json\n'}
+[12.862338] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Steer.json\n'}
+[12.862497] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Safety.json\n'}
+[12.862803] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs\n'}
+[12.862969] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg\n'}
+[12.863081] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/steer.h\n'}
+[12.863227] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail\n'}
+[12.863326] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__description.c\n'}
+[12.863483] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__description.c\n'}
+[12.863626] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.c\n'}
+[12.863763] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__struct.h\n'}
+[12.863898] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.h\n'}
+[12.864032] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__struct.h\n'}
+[12.864163] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__struct.h\n'}
+[12.864307] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.h\n'}
+[12.864446] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__functions.h\n'}
+[12.864579] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__description.c\n'}
+[12.865593] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__functions.c\n'}
+[12.865744] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__functions.h\n'}
+[12.865887] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.c\n'}
+[12.866023] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__functions.c\n'}
+[12.866162] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__functions.h\n'}
+[12.866294] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.h\n'}
+[12.866369] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__functions.c\n'}
+[12.866455] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.c\n'}
+[12.866543] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/safety.h\n'}
+[12.866617] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[12.866725] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/throttle.h\n'}
+[12.866804] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/library_path.sh\n'}
+[12.866932] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/library_path.dsv\n'}
+[12.867175] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_c.so\n'}
+[12.867797] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_c.so" to ""\n'}
+[12.867960] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs\n'}
+[12.868104] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg\n'}
+[12.868235] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail\n'}
+[12.868322] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__rosidl_typesupport_fastrtps_c.h\n'}
+[12.868446] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__rosidl_typesupport_fastrtps_c.h\n'}
+[12.868560] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__rosidl_typesupport_fastrtps_c.h\n'}
+[12.868642] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[12.868794] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[12.869335] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.869554] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs\n'}
+[12.869651] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg\n'}
+[12.869787] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail\n'}
+[12.869929] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__rosidl_typesupport_introspection_c.h\n'}
+[12.870034] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.c\n'}
+[12.870149] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.c\n'}
+[12.870255] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__rosidl_typesupport_introspection_c.h\n'}
+[12.870365] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__rosidl_typesupport_introspection_c.h\n'}
+[12.870453] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.c\n'}
+[12.870584] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[12.870826] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_c.so\n'}
+[12.871325] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.871507] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_c.so\n'}
+[12.871922] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_c.so" to ""\n'}
+[12.872144] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs\n'}
+[12.872252] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg\n'}
+[12.872372] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail\n'}
+[12.872521] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__struct.hpp\n'}
+[12.872598] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.hpp\n'}
+[12.872695] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__traits.hpp\n'}
+[12.872807] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__struct.hpp\n'}
+[12.872937] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__builder.hpp\n'}
+[12.873130] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__builder.hpp\n'}
+[12.873283] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.hpp\n'}
+[12.873414] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__traits.hpp\n'}
+[12.873567] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__struct.hpp\n'}
+[12.873806] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__builder.hpp\n'}
+[12.873968] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__traits.hpp\n'}
+[12.874094] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.hpp\n'}
+[12.874432] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/steer.hpp\n'}
+[12.874642] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/throttle.hpp\n'}
+[12.874789] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[12.874927] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/safety.hpp\n'}
+[12.875065] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs\n'}
+[12.875173] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg\n'}
+[12.875302] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail\n'}
+[12.875416] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/dds_fastrtps\n'}
+[12.875571] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.875702] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.875828] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[12.875921] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[12.876046] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[12.876669] (-) TimerEvent: {}
+[12.877753] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[12.878575] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs\n'}
+[12.878762] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg\n'}
+[12.879534] (softsys_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail\n'}
+[12.879707] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.879887] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__type_support.cpp\n'}
+[12.880054] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/throttle__type_support.cpp\n'}
+[12.880208] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/safety__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.880360] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__rosidl_typesupport_introspection_cpp.hpp\n'}
+[12.880543] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/include/softsys_msgs/softsys_msgs/msg/detail/steer__type_support.cpp\n'}
+[12.880795] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[12.882989] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[12.883194] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_cpp.so\n'}
+[12.884832] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[12.884970] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/pythonpath.sh\n'}
+[12.885058] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/pythonpath.dsv\n'}
+[12.885145] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info\n'}
+[12.885219] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[12.885296] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[12.885375] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[12.885764] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[12.885888] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs\n'}
+[12.886000] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[12.886131] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg\n'}
+[12.886254] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_steer_s.c\n'}
+[12.886334] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/__init__.py\n'}
+[12.886409] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_throttle_s.c\n'}
+[12.886511] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_steer.py\n'}
+[12.887594] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_safety.py\n'}
+[12.887802] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_throttle.py\n'}
+[12.887896] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_safety_s.c\n'}
+[12.887980] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_c.so\n'}
+[12.888057] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[12.888131] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/_softsys_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[12.888204] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.888283] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[12.888362] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/__init__.py\n'}
+[12.939006] (softsys_msgs) StdoutLine: {'line': b"Listing '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs'...\n"}
+[12.939177] (softsys_msgs) StdoutLine: {'line': b"Compiling '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/__init__.py'...\n"}
+[12.939647] (softsys_msgs) StdoutLine: {'line': b"Listing '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg'...\n"}
+[12.939809] (softsys_msgs) StdoutLine: {'line': b"Compiling '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/__init__.py'...\n"}
+[12.939949] (softsys_msgs) StdoutLine: {'line': b"Compiling '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_safety.py'...\n"}
+[12.940081] (softsys_msgs) StdoutLine: {'line': b"Compiling '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_steer.py'...\n"}
+[12.940214] (softsys_msgs) StdoutLine: {'line': b"Compiling '/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/msg/_throttle.py'...\n"}
+[12.946156] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[12.946698] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[12.947039] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[12.947549] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[12.947887] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_c.so\n'}
+[12.948381] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/python3.12/site-packages/softsys_msgs/softsys_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[12.948595] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_py.so\n'}
+[12.949050] (softsys_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_py.so" to ""\n'}
+[12.949246] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Throttle.idl\n'}
+[12.949371] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Steer.idl\n'}
+[12.949506] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Safety.idl\n'}
+[12.949778] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Throttle.msg\n'}
+[12.949951] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Steer.msg\n'}
+[12.950211] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/msg/Safety.msg\n'}
+[12.950505] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/ament_index/resource_index/package_run_dependencies/softsys_msgs\n'}
+[12.950822] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/ament_index/resource_index/parent_prefix_path/softsys_msgs\n'}
+[12.950993] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/ament_prefix_path.sh\n'}
+[12.951370] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/ament_prefix_path.dsv\n'}
+[12.951557] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/path.sh\n'}
+[12.951694] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/environment/path.dsv\n'}
+[12.951962] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/local_setup.bash\n'}
+[12.952134] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/local_setup.sh\n'}
+[12.952274] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/local_setup.zsh\n'}
+[12.952536] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/local_setup.dsv\n'}
+[12.952685] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/package.dsv\n'}
+[12.953138] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/ament_index/resource_index/packages/softsys_msgs\n'}
+[12.953413] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_cExport.cmake\n'}
+[12.953581] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[12.953862] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[12.954034] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[12.954330] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[12.954523] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[12.954855] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_cExport.cmake\n'}
+[12.955275] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[12.955641] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_cppExport.cmake\n'}
+[12.955985] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[12.956165] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[12.956432] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[12.956633] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[12.956841] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[12.957060] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[12.957408] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_pyExport.cmake\n'}
+[12.957599] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/export_softsys_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[12.957738] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[12.958004] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[12.958180] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[12.958334] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[12.958608] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[12.958785] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[12.958927] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[12.959294] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgsConfig.cmake\n'}
+[12.959482] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/cmake/softsys_msgsConfig-version.cmake\n'}
+[12.959636] (softsys_msgs) StdoutLine: {'line': b'-- Installing: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/share/softsys_msgs/package.xml\n'}
+[12.962352] (softsys_msgs) CommandEnded: {'returncode': 0}
+[12.976780] (-) TimerEvent: {}
+[13.014468] (softsys_msgs) JobEnded: {'identifier': 'softsys_msgs', 'rc': 0}
+[13.016315] (-) EventReactorShutdown: {}
