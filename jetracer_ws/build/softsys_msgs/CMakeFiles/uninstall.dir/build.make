@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs
+CMAKE_SOURCE_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs
+CMAKE_BINARY_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/CMakeFiles/uninstall.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/uninstall.dir/depend
 

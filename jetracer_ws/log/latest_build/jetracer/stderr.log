@@ -1,0 +1,5 @@
+In file included from [01m[K/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer/src/lead_controller_node.cpp:1[m[K:
+[01m[K/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer/include/lead_controller_node.hpp:12:70:[m[K [01;35m[Kwarning: [m[Kconverting to ‘[01m[Kconst rclcpp::NodeOptions[m[K’ from initializer list would use explicit constructor ‘[01m[Krclcpp::NodeOptions::[01;32m[KNodeOptions[m[K(rcl_allocator_t)[m[K’
+   12 |   explicit LeadControllerNode(const rclcpp::NodeOptions & options = {[01;35m[K}[m[K);
+      |                                                                      [01;35m[K^[m[K
+[01m[K/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer/include/lead_controller_node.hpp:12:70:[m[K [01;36m[Knote: [m[Kin C++11 and above a default constructor can be explicit

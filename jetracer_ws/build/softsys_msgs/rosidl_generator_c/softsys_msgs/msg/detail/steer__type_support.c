@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "softsys_msgs/msg/detail/steer__type_support.h"
-#include "rosidl_typesupport_interface/macros.h"
-#include "softsys_msgs/msg/detail/steer__functions.h"
 #include "softsys_msgs/msg/detail/steer__struct.h"
+#include "softsys_msgs/msg/detail/steer__type_support.h"
+#include "softsys_msgs/msg/detail/steer__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

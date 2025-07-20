@@ -2,7 +2,7 @@
 
 # since this file is sourced use either the provided AMENT_CURRENT_PREFIX
 # or fall back to the destination set at configure time
-: ${AMENT_CURRENT_PREFIX:="/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs"}
+: ${AMENT_CURRENT_PREFIX:="/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs"}
 if [ ! -d "$AMENT_CURRENT_PREFIX" ]; then
   if [ -z "$COLCON_CURRENT_PREFIX" ]; then
     echo "The compile time prefix path '$AMENT_CURRENT_PREFIX' doesn't " \

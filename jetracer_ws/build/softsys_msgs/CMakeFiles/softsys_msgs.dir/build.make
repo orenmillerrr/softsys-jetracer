@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs
+CMAKE_SOURCE_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs
+CMAKE_BINARY_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs
 
 # Utility rule file for softsys_msgs.
 
@@ -66,9 +66,9 @@ include CMakeFiles/softsys_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/softsys_msgs.dir/progress.make
 
-CMakeFiles/softsys_msgs: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs/msg/Throttle.msg
-CMakeFiles/softsys_msgs: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs/msg/Steer.msg
-CMakeFiles/softsys_msgs: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs/msg/Safety.msg
+CMakeFiles/softsys_msgs: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs/msg/Throttle.msg
+CMakeFiles/softsys_msgs: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs/msg/Steer.msg
+CMakeFiles/softsys_msgs: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs/msg/Safety.msg
 CMakeFiles/softsys_msgs: /opt/ros/jazzy/share/std_msgs/msg/Bool.idl
 CMakeFiles/softsys_msgs: /opt/ros/jazzy/share/std_msgs/msg/Byte.idl
 CMakeFiles/softsys_msgs: /opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl
@@ -145,6 +145,6 @@ CMakeFiles/softsys_msgs.dir/clean:
 .PHONY : CMakeFiles/softsys_msgs.dir/clean
 
 CMakeFiles/softsys_msgs.dir/depend:
-	cd /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/CMakeFiles/softsys_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/CMakeFiles/softsys_msgs.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/softsys_msgs.dir/depend
 

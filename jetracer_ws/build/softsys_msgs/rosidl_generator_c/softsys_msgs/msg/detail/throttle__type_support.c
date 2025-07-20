@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "rosidl_typesupport_interface/macros.h"
 #include "softsys_msgs/msg/detail/throttle__type_support.h"
-#include "softsys_msgs/msg/detail/throttle__functions.h"
 #include "softsys_msgs/msg/detail/throttle__struct.h"
+#include "softsys_msgs/msg/detail/throttle__functions.h"
+#include "rosidl_typesupport_interface/macros.h"
 
 #ifdef __cplusplus
 extern "C"

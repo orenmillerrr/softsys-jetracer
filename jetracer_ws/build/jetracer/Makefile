@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer
+CMAKE_SOURCE_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer
+CMAKE_BINARY_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -142,9 +142,9 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer/CMakeFiles /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer/CMakeFiles /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -210,6 +210,32 @@ tuner/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuner.dir/build.make CMakeFiles/tuner.dir/build
 .PHONY : tuner/fast
 
+#=============================================================================
+# Target rules for targets named lead_controller_lib
+
+# Build rule for target.
+lead_controller_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lead_controller_lib
+.PHONY : lead_controller_lib
+
+# fast build rule for target.
+lead_controller_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lead_controller_lib.dir/build.make CMakeFiles/lead_controller_lib.dir/build
+.PHONY : lead_controller_lib/fast
+
+#=============================================================================
+# Target rules for targets named lead_controller_node
+
+# Build rule for target.
+lead_controller_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lead_controller_node
+.PHONY : lead_controller_node
+
+# fast build rule for target.
+lead_controller_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lead_controller_node.dir/build.make CMakeFiles/lead_controller_node.dir/build
+.PHONY : lead_controller_node/fast
+
 src/hsv_sub.o: src/hsv_sub.cpp.o
 .PHONY : src/hsv_sub.o
 
@@ -234,6 +260,54 @@ src/hsv_sub.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tuner.dir/build.make CMakeFiles/tuner.dir/src/hsv_sub.cpp.s
 .PHONY : src/hsv_sub.cpp.s
 
+src/lead_controller.o: src/lead_controller.cpp.o
+.PHONY : src/lead_controller.o
+
+# target to build an object file
+src/lead_controller.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lead_controller_lib.dir/build.make CMakeFiles/lead_controller_lib.dir/src/lead_controller.cpp.o
+.PHONY : src/lead_controller.cpp.o
+
+src/lead_controller.i: src/lead_controller.cpp.i
+.PHONY : src/lead_controller.i
+
+# target to preprocess a source file
+src/lead_controller.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lead_controller_lib.dir/build.make CMakeFiles/lead_controller_lib.dir/src/lead_controller.cpp.i
+.PHONY : src/lead_controller.cpp.i
+
+src/lead_controller.s: src/lead_controller.cpp.s
+.PHONY : src/lead_controller.s
+
+# target to generate assembly for a file
+src/lead_controller.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lead_controller_lib.dir/build.make CMakeFiles/lead_controller_lib.dir/src/lead_controller.cpp.s
+.PHONY : src/lead_controller.cpp.s
+
+src/lead_controller_node.o: src/lead_controller_node.cpp.o
+.PHONY : src/lead_controller_node.o
+
+# target to build an object file
+src/lead_controller_node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lead_controller_node.dir/build.make CMakeFiles/lead_controller_node.dir/src/lead_controller_node.cpp.o
+.PHONY : src/lead_controller_node.cpp.o
+
+src/lead_controller_node.i: src/lead_controller_node.cpp.i
+.PHONY : src/lead_controller_node.i
+
+# target to preprocess a source file
+src/lead_controller_node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lead_controller_node.dir/build.make CMakeFiles/lead_controller_node.dir/src/lead_controller_node.cpp.i
+.PHONY : src/lead_controller_node.cpp.i
+
+src/lead_controller_node.s: src/lead_controller_node.cpp.s
+.PHONY : src/lead_controller_node.s
+
+# target to generate assembly for a file
+src/lead_controller_node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lead_controller_node.dir/build.make CMakeFiles/lead_controller_node.dir/src/lead_controller_node.cpp.s
+.PHONY : src/lead_controller_node.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -249,10 +323,18 @@ help:
 	@echo "... test"
 	@echo "... jetracer_uninstall"
 	@echo "... uninstall"
+	@echo "... lead_controller_lib"
+	@echo "... lead_controller_node"
 	@echo "... tuner"
 	@echo "... src/hsv_sub.o"
 	@echo "... src/hsv_sub.i"
 	@echo "... src/hsv_sub.s"
+	@echo "... src/lead_controller.o"
+	@echo "... src/lead_controller.i"
+	@echo "... src/lead_controller.s"
+	@echo "... src/lead_controller_node.o"
+	@echo "... src/lead_controller_node.i"
+	@echo "... src/lead_controller_node.s"
 .PHONY : help
 
 

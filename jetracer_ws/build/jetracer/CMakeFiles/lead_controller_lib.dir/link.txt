@@ -1,0 +1,2 @@
+/usr/bin/ar qc liblead_controller_lib.a CMakeFiles/lead_controller_lib.dir/src/lead_controller.cpp.o
+/usr/bin/ranlib liblead_controller_lib.a

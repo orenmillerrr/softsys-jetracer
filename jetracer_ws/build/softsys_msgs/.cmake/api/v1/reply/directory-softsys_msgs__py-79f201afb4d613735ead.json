@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "softsys_msgs__py",
+		"source" : "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/softsys_msgs__py"
+	}
+}

@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-747e51b21b16e3b8cd35.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "jetracer",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "jetracer_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-jetracer_uninstall-33301a78edc22595ee07.json",
+					"name" : "jetracer_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lead_controller_lib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lead_controller_lib-582dca18177edb3ad0b1.json",
+					"name" : "lead_controller_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lead_controller_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lead_controller_node-d35bd4ec5e499aa57411.json",
+					"name" : "lead_controller_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tuner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tuner-ffcec19ca91fd79d2295.json",
+					"name" : "tuner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0b72d252f42827f68836.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer",
+		"source" : "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

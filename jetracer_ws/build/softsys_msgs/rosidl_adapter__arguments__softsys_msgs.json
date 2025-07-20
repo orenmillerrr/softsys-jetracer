@@ -1,8 +1,8 @@
 {
   "package_name": "softsys_msgs",
   "non_idl_tuples": [
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs:msg/Throttle.msg",
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs:msg/Steer.msg",
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs:msg/Safety.msg"
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs:msg/Throttle.msg",
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs:msg/Steer.msg",
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs:msg/Safety.msg"
   ]
 }

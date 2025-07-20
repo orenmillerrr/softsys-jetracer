@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-04e779a7f5c5fc01f872.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "softsys_msgs__py",
+					"jsonFile" : "directory-softsys_msgs__py-79f201afb4d613735ead.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/softsys_msgs__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "softsys_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_softsys_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_softsys_msgs_egg-19042413182dcdbf226f.json",
+					"name" : "ament_cmake_python_build_softsys_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_softsys_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_softsys_msgs-09e99c9bbe89ae6dc151.json",
+					"name" : "ament_cmake_python_copy_softsys_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs-b234441dd6291dac8b61.json",
+					"name" : "softsys_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__cpp-f21d94c468320d480c66.json",
+					"name" : "softsys_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "softsys_msgs__py::@8a691fe366c437b3f4e2",
+					"jsonFile" : "target-softsys_msgs__py-b34d55ebe125a5ab38d5.json",
+					"name" : "softsys_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_generator_c-63ad7263f0767e7c27b2.json",
+					"name" : "softsys_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_generator_py-b80138faf00e6d148ee5.json",
+					"name" : "softsys_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_generator_type_description-00cbedd1411f59c48eaa.json",
+					"name" : "softsys_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_typesupport_c-a082a4e54fa2642125c6.json",
+					"name" : "softsys_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_typesupport_cpp-f2fcd27dca410b304476.json",
+					"name" : "softsys_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_typesupport_fastrtps_c-6530cdbe54474cf76d0d.json",
+					"name" : "softsys_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_typesupport_fastrtps_cpp-8b62c0555cec0951f3f5.json",
+					"name" : "softsys_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_typesupport_introspection_c-deef19597456e3b4520c.json",
+					"name" : "softsys_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs__rosidl_typesupport_introspection_cpp-3456a783ed7627257330.json",
+					"name" : "softsys_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs_s__rosidl_typesupport_c-796ba1c03d7087c4fa0c.json",
+					"name" : "softsys_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs_s__rosidl_typesupport_fastrtps_c-91c35bbb4266358de6f8.json",
+					"name" : "softsys_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs_s__rosidl_typesupport_introspection_c-21999cc0f0a37351e065.json",
+					"name" : "softsys_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "softsys_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-softsys_msgs_uninstall-9904cc59da10ab7e922d.json",
+					"name" : "softsys_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-ed3088e8ca132edc62e9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs",
+		"source" : "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

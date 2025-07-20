@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer
+CMAKE_SOURCE_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer
+CMAKE_BINARY_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tuner.dir/depend.make
@@ -70,18 +70,18 @@ include CMakeFiles/tuner.dir/progress.make
 include CMakeFiles/tuner.dir/flags.make
 
 CMakeFiles/tuner.dir/src/hsv_sub.cpp.o: CMakeFiles/tuner.dir/flags.make
-CMakeFiles/tuner.dir/src/hsv_sub.cpp.o: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer/src/hsv_sub.cpp
+CMakeFiles/tuner.dir/src/hsv_sub.cpp.o: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer/src/hsv_sub.cpp
 CMakeFiles/tuner.dir/src/hsv_sub.cpp.o: CMakeFiles/tuner.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tuner.dir/src/hsv_sub.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tuner.dir/src/hsv_sub.cpp.o -MF CMakeFiles/tuner.dir/src/hsv_sub.cpp.o.d -o CMakeFiles/tuner.dir/src/hsv_sub.cpp.o -c /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer/src/hsv_sub.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/tuner.dir/src/hsv_sub.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tuner.dir/src/hsv_sub.cpp.o -MF CMakeFiles/tuner.dir/src/hsv_sub.cpp.o.d -o CMakeFiles/tuner.dir/src/hsv_sub.cpp.o -c /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer/src/hsv_sub.cpp
 
 CMakeFiles/tuner.dir/src/hsv_sub.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tuner.dir/src/hsv_sub.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer/src/hsv_sub.cpp > CMakeFiles/tuner.dir/src/hsv_sub.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer/src/hsv_sub.cpp > CMakeFiles/tuner.dir/src/hsv_sub.cpp.i
 
 CMakeFiles/tuner.dir/src/hsv_sub.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tuner.dir/src/hsv_sub.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer/src/hsv_sub.cpp -o CMakeFiles/tuner.dir/src/hsv_sub.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer/src/hsv_sub.cpp -o CMakeFiles/tuner.dir/src/hsv_sub.cpp.s
 
 # Object files for target tuner
 tuner_OBJECTS = \
@@ -94,12 +94,12 @@ tuner: CMakeFiles/tuner.dir/src/hsv_sub.cpp.o
 tuner: CMakeFiles/tuner.dir/build.make
 tuner: /opt/ros/jazzy/lib/libcv_bridge.so
 tuner: /opt/ros/jazzy/lib/x86_64-linux-gnu/libimage_transport.so
-tuner: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_c.so
-tuner: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_c.so
-tuner: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_cpp.so
-tuner: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_cpp.so
-tuner: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_cpp.so
-tuner: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_py.so
+tuner: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_c.so
+tuner: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_c.so
+tuner: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_fastrtps_cpp.so
+tuner: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_introspection_cpp.so
+tuner: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_cpp.so
+tuner: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_py.so
 tuner: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.6.0
 tuner: /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.6.0
 tuner: /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.6.0
@@ -191,8 +191,8 @@ tuner: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_typesupport_c.so
 tuner: /opt/ros/jazzy/lib/libstatistics_msgs__rosidl_generator_c.so
 tuner: /opt/ros/jazzy/lib/libtracetools.so
 tuner: /opt/ros/jazzy/lib/librcl_logging_interface.so
-tuner: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_c.so
-tuner: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_c.so
+tuner: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_typesupport_c.so
+tuner: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs/lib/libsoftsys_msgs__rosidl_generator_c.so
 tuner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
 tuner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
 tuner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
@@ -201,8 +201,6 @@ tuner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 tuner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 tuner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 tuner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-tuner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
-tuner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 tuner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 tuner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_cpp.so
 tuner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_py.so
@@ -220,8 +218,10 @@ tuner: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 tuner: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
 tuner: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so
 tuner: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_py.so
+tuner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_typesupport_c.so
 tuner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_typesupport_c.so
 tuner: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+tuner: /opt/ros/jazzy/lib/libgeometry_msgs__rosidl_generator_c.so
 tuner: /opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so
 tuner: /opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so
 tuner: /opt/ros/jazzy/lib/librosidl_typesupport_c.so
@@ -248,7 +248,7 @@ tuner: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.6.0
 tuner: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.6.0
 tuner: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.6.0
 tuner: CMakeFiles/tuner.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tuner"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable tuner"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tuner.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -260,6 +260,6 @@ CMakeFiles/tuner.dir/clean:
 .PHONY : CMakeFiles/tuner.dir/clean
 
 CMakeFiles/tuner.dir/depend:
-	cd /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/jetracer /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/jetracer/CMakeFiles/tuner.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/jetracer /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/jetracer/CMakeFiles/tuner.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/tuner.dir/depend
 

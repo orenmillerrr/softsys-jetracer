@@ -1,8 +1,8 @@
-# Install script for directory: /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/softsys_msgs__py
+# Install script for directory: /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/softsys_msgs__py
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/install/softsys_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/install/softsys_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

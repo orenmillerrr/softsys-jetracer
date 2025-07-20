@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs
+CMAKE_SOURCE_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs
+CMAKE_BINARY_DIR = /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs
 
 # Utility rule file for ament_cmake_python_build_softsys_msgs_egg.
 
@@ -67,7 +67,7 @@ include CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/compiler_depend
 include CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/progress.make
 
 CMakeFiles/ament_cmake_python_build_softsys_msgs_egg:
-	cd /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/ament_cmake_python/softsys_msgs && /usr/bin/python3 setup.py egg_info
+	cd /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/ament_cmake_python/softsys_msgs && /usr/bin/python3 setup.py egg_info
 
 ament_cmake_python_build_softsys_msgs_egg: CMakeFiles/ament_cmake_python_build_softsys_msgs_egg
 ament_cmake_python_build_softsys_msgs_egg: CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/clean:
 .PHONY : CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/clean
 
 CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/depend:
-	cd /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/src/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs /home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
+	cd /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/src/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs /home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/ament_cmake_python_build_softsys_msgs_egg.dir/depend
 

@@ -1,11 +1,11 @@
 {
   "package_name": "softsys_msgs",
-  "output_dir": "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_typesupport_introspection_cpp/softsys_msgs",
+  "output_dir": "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/rosidl_typesupport_introspection_cpp/softsys_msgs",
   "template_dir": "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource",
   "idl_tuples": [
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Throttle.idl",
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Steer.idl",
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Safety.idl"
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Throttle.idl",
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Steer.idl",
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs:msg/Safety.idl"
   ],
   "ros_interface_dependencies": [
     "std_msgs:/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
@@ -82,9 +82,9 @@
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/msg__type_support.cpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__rosidl_typesupport_introspection_cpp.hpp.em",
     "/opt/ros/jazzy/share/rosidl_typesupport_introspection_cpp/resource/srv__type_support.cpp.em",
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs/msg/Throttle.idl",
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs/msg/Steer.idl",
-    "/home/odm0003/Documents/mech6970-softsys/jetracer_prj/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs/msg/Safety.idl",
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs/msg/Throttle.idl",
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs/msg/Steer.idl",
+    "/home/jcespedes/Documents/softsys-jetracer/jetracer_ws/build/softsys_msgs/rosidl_adapter/softsys_msgs/msg/Safety.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Bool.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/Byte.idl",
     "/opt/ros/jazzy/share/std_msgs/msg/ByteMultiArray.idl",
