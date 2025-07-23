@@ -33,15 +33,6 @@ public:
         steering_pub_ = this->create_publisher<softsys_msgs::msg::Steer>("cmd_steering", 10);
         throttle_pub_ = this->create_publisher<softsys_msgs::msg::Throttle>("cmd_throttle", 10);
 
-        namedWindow("Sliders", WINDOW_NORMAL);
-        resizeWindow("Sliders", 400, 400);
-
-        createTrackbar("ROI X", "Sliders", &Rectx, 640);
-        createTrackbar("ROI Y", "Sliders", &Recty, 480);
-        createTrackbar("ROI W", "Sliders", &Rectw, 640);
-        createTrackbar("ROI H", "Sliders", &Recth, 480);
-        createTrackbar("EgoLine X", "Sliders", &ELx, 640);
-
         last_time_ = this->now();
     }
 
@@ -172,13 +163,6 @@ private:
             putText(drawing, "LatE: " + to_string(LatE), Point(20, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(128, 200, 255), 2);
             putText(drawing, "YawE: " + to_string(yawE), Point(20, 60), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 160, 153), 2);
         }
-
-        // Show images
-        // imshow("Mask", mask);
-        // imshow("Contour", contourImage);
-        // imshow("ROI", roiImage);
-        imshow("Drawing", drawing);
-        waitKey(33);
     }
 };
 
