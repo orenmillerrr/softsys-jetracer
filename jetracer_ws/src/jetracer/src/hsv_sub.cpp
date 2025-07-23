@@ -3,12 +3,13 @@
 #include "sensor_msgs/msg/image.hpp"
 #include "softsys_msgs/msg/steer.hpp"
 #include "softsys_msgs/msg/throttle.hpp"
-#include "cv_bridge/cv_bridge.hpp"
+#include "cv_bridge/cv_bridge.h"
 #include "image_transport/image_transport.hpp"
 #include <opencv2/opencv.hpp>
 
 #include <cmath>
 #include <iostream>
+#include <algorithm>
 
 using namespace std;
 using namespace cv;
@@ -23,8 +24,7 @@ int Rectx = 0, Recty = 398, Rectw = 1280, Recth = 157, ELx = 660;
 class ImageSubscriber : public rclcpp::Node
 {
 public:
-    ImageSubscriber()
-    : Node("image_subscriber_line_following")
+    ImageSubscriber() : Node("image_processing")
     {
         subscription_ = this->create_subscription<sensor_msgs::msg::Image>(
             "softsys/image_raw", 10,
@@ -41,7 +41,6 @@ private:
     rclcpp::Publisher<softsys_msgs::msg::Steer>::SharedPtr steering_pub_;
     rclcpp::Publisher<softsys_msgs::msg::Throttle>::SharedPtr throttle_pub_;
 
-    // PID controller variables
     double kp_ = 0.01;
     double ki_ = 0.0001;
     double kd_ = 0.001;
@@ -62,10 +61,11 @@ private:
         Mat frame = cv_ptr->image;
         Mat original = frame.clone();
 
-        Rectx = std::clamp(Rectx, 0, frame.cols - 1);
-        Recty = std::clamp(Recty, 0, frame.rows - 1);
-        Rectw = std::clamp(Rectw, 1, frame.cols - Rectx);
-        Recth = std::clamp(Recth, 1, frame.rows - Recty);
+        // Check that ROI stays inside image bounds
+        if (Rectx < 0 || Recty < 0 || Rectx + Rectw > frame.cols || Recty + Recth > frame.rows) {
+            RCLCPP_WARN(this->get_logger(), "ROI out of image bounds. Skipping frame.");
+            return;
+        }
 
         Mat hsv, mask;
         cvtColor(frame, hsv, COLOR_BGR2HSV);
@@ -128,7 +128,6 @@ private:
             double y = static_cast<double>(frame.rows - (Recty + Recth / 2));
             double yawE = atan2(LatE_d, y) * 180 / PI;
 
-            // PID controller
             rclcpp::Time current_time = this->now();
             double dt = (current_time - last_time_).seconds();
             last_time_ = current_time;
@@ -140,28 +139,29 @@ private:
             double control = kp_ * error + ki_ * integral_ + kd_ * derivative;
             prev_error_ = error;
 
-            control = std::clamp(control, -1.0, 1.0);
+            if (control > 1.0) control = 1.0;
+            else if (control < -1.0) control = -1.0;
 
-            // Publish steering
             softsys_msgs::msg::Steer steer_msg;
             steer_msg.steer_angle = control;
             steering_pub_->publish(steer_msg);
 
-            // Simple throttle control
-            double throttle_val = std::clamp(1.0 - std::abs(control) * .8, 0.0, 1.0);
+            double throttle_val = 1.0 - std::abs(control) * 0.8;
+            if (throttle_val < 0.0) throttle_val = 0.0;
+            else if (throttle_val > 1.0) throttle_val = 1.0;
+
             softsys_msgs::msg::Throttle throttle_msg;
             throttle_msg.throttle = throttle_val;
             throttle_pub_->publish(throttle_msg);
 
-            // Visual overlays
-            rectangle(drawing, roi, Scalar(252, 153, 255), 1);
-            line(drawing, Point(ELx, 0), Point(ELx, frame.rows), Scalar(158, 230, 117), 2);
-            line(drawing, Point(ELx, Recty + midY), Point(Centx + Rectx, Recty + midY), Scalar(128, 200, 255), 2);
-            line(drawing, Point(ELx, frame.rows - 1), Point(Centx + Rectx, Recty + midY), Scalar(255, 160, 153), 2);
-            circle(drawing, Point(Rectx + Centx, Recty + midY), 3, Scalar(89, 100, 255), FILLED);
-            circle(drawing, Point(ELx, frame.rows - 1), 3, Scalar(89, 100, 255), FILLED);
-            putText(drawing, "LatE: " + to_string(LatE), Point(20, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(128, 200, 255), 2);
-            putText(drawing, "YawE: " + to_string(yawE), Point(20, 60), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 160, 153), 2);
+            // rectangle(drawing, roi, Scalar(252, 153, 255), 1);
+            // line(drawing, Point(ELx, 0), Point(ELx, frame.rows), Scalar(158, 230, 117), 2);
+            // line(drawing, Point(ELx, Recty + midY), Point(Centx + Rectx, Recty + midY), Scalar(128, 200, 255), 2);
+            // line(drawing, Point(ELx, frame.rows - 1), Point(Centx + Rectx, Recty + midY), Scalar(255, 160, 153), 2);
+            // circle(drawing, Point(Rectx + Centx, Recty + midY), 3, Scalar(89, 100, 255), FILLED);
+            // circle(drawing, Point(ELx, frame.rows - 1), 3, Scalar(89, 100, 255), FILLED);
+            // putText(drawing, "LatE: " + to_string(LatE), Point(20, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(128, 200, 255), 2);
+            // putText(drawing, "YawE: " + to_string(yawE), Point(20, 60), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 160, 153), 2);
         }
     }
 };
