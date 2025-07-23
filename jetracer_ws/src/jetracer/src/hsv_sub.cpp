@@ -153,15 +153,6 @@ private:
             softsys_msgs::msg::Throttle throttle_msg;
             throttle_msg.throttle = throttle_val;
             throttle_pub_->publish(throttle_msg);
-
-            // rectangle(drawing, roi, Scalar(252, 153, 255), 1);
-            // line(drawing, Point(ELx, 0), Point(ELx, frame.rows), Scalar(158, 230, 117), 2);
-            // line(drawing, Point(ELx, Recty + midY), Point(Centx + Rectx, Recty + midY), Scalar(128, 200, 255), 2);
-            // line(drawing, Point(ELx, frame.rows - 1), Point(Centx + Rectx, Recty + midY), Scalar(255, 160, 153), 2);
-            // circle(drawing, Point(Rectx + Centx, Recty + midY), 3, Scalar(89, 100, 255), FILLED);
-            // circle(drawing, Point(ELx, frame.rows - 1), 3, Scalar(89, 100, 255), FILLED);
-            // putText(drawing, "LatE: " + to_string(LatE), Point(20, 30), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(128, 200, 255), 2);
-            // putText(drawing, "YawE: " + to_string(yawE), Point(20, 60), FONT_HERSHEY_SIMPLEX, 0.6, Scalar(255, 160, 153), 2);
         }
     }
 };
