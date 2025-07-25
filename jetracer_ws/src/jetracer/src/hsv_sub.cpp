@@ -30,8 +30,8 @@ public:
             "softsys/image_raw", 10,
             std::bind(&ImageSubscriber::topic_callback, this, std::placeholders::_1));
 
-        steering_pub_ = this->create_publisher<softsys_msgs::msg::Steer>("cmd_steering", 10);
-        throttle_pub_ = this->create_publisher<softsys_msgs::msg::Throttle>("cmd_throttle", 10);
+        steering_pub_ = this->create_publisher<softsys_msgs::msg::Steer>("softsys/steering_cmd", 10);
+        throttle_pub_ = this->create_publisher<softsys_msgs::msg::Throttle>("softsys/throttle_cmd", 10);
 
         last_time_ = this->now();
     }
@@ -42,7 +42,7 @@ private:
     rclcpp::Publisher<softsys_msgs::msg::Throttle>::SharedPtr throttle_pub_;
 
     double kp_ = 0.01;
-    double ki_ = 0.0001;
+    double ki_ = 0.0;
     double kd_ = 0.001;
     double integral_ = 0.0;
     double prev_error_ = 0.0;
